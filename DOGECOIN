@@ -1,0 +1,4 @@
+#dogecoin
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz
+tar xf cpuminer-opt-linux.tar.gz
+./cpuminer-avx2 -a lyra2z330 -o stratum+tcp://lyra2z330.sea.mine.zpool.ca:4563 -u DTGjUUqW9N65RcmVm7FTEjg8cTWTh9z1Wc -p c=DOGE20 --threads=2
